@@ -98,6 +98,6 @@ export default class Vimeo extends Base {
       width: '100%',
       height: '100%'
     }
-    return <iframe ref='iframe' frameBorder='0' style={style} />
+    return <iframe allowFullScreen ref='iframe' frameBorder='0' style={style} />
   }
 }
